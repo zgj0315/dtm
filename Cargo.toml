@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "dtm"
+version = "0.1.0"
+
+[dependencies]
+dev_util = "0.1"
+log = "0.4"
+tokio = {version = "1.29", features = ["full"]}
